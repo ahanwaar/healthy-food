@@ -1,0 +1,35 @@
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: black;
+  background-image: url("https://image.freepik.com/free-photo/flat-lay-batch-cooking-composition_23-2148765597.jpg");
+
+  color: white;
+  font-size: 30px;
+}
+.title {
+  background-color: black;
+  background-position: center;
+}
+
+/* Page Content */
+.content {padding:20px;}
+.main{
+  background-color: white;
+  color: black;
+  padding: 50px;
+  position: center;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  padding: 50px;
+}
