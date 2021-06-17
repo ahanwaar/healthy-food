@@ -1,7 +1,7 @@
 /* Style the body */
 body {
+  background-color: #f1f1f1;
   font-family: Arial;
-  margin: 0;
 }
 
 /* Header/Logo Title */
@@ -17,6 +17,8 @@ body {
 .title {
   background-color: black;
   background-position: center;
+  border-radius: 10px;
+  padding: 20px;
 }
 button{
   background-color: black;
@@ -24,18 +26,83 @@ button{
   padding: 20px;
   border-radius: 8px;
 }
+button:hover{
+  background-color: grey;
+}
 
 /* Page Content */
 .content {padding:20px;}
-.main{
-  background-color: white;
+.main {
+  max-width: 1000px;
+  margin: auto;
+  background-color: #f1f1f1;
   color: black;
   padding: 50px;
   position: center;
+  font-family: Arial;
 }
+
 
 footer{
   background-color: black;
   color: white;
   padding: 50px;
+}
+
+footer li {
+  display: inline-block;
+  list-style: none;
+  padding: 10px;
+}
+
+footer a {
+  color: inherit;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color:gray;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main img{
+  width:100%;
+  border-radius: 10px;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
