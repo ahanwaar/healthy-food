@@ -1,6 +1,6 @@
 function changeColor() {
     confirm('Are you sure?')
-    var favColor = prompt("what is your fav color(1.beige, 2.white, or 3.green)?")
+    var favColor = prompt("what is your fav color(1.beige, 2.silver, or 3.green)?")
     while (favColor != "beige" && favColor != "silver" && favColor != "green") {
         favColor = prompt("you entered wrong color please try gain ")
     }
