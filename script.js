@@ -1,10 +1,15 @@
 var num = prompt("how do you rate the site out of 5?")
-num = parseInt(num)
-if(num <= 5) {
-    for (var j = 0; j < num; j++) {
-        document.getElementById("rate").innerHTML += '<img src="assets/star.png" alt="star">'
+
+rate(num);
+
+function rate(num){
+    if(num <= 5) {
+        for (var j = 0; j < num; j++) {
+            document.getElementById("rate").innerHTML += '<img src="assets/star.png" alt="star">'
+        }
     }
 }
+
 
 function changeColor() {
     confirm('Are you sure?')
@@ -12,7 +17,6 @@ function changeColor() {
     while (favColor !== "beige" && favColor !== "silver" && favColor !== "green") {
         favColor = prompt("you entered wrong color please try gain ")
     }
-
     if(favColor === "beige"){
         document.getElementById('main').style.backgroundColor ='beige'
     } else if(favColor === "green"){
