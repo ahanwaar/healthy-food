@@ -10,16 +10,6 @@ function rate(num){
     }
 }
 
-
-var name = prompt("Hello, What's Your name?")
-welcome(name);
-
-var num = prompt("how do you rate the site out of 5?")
-rate(num);
-
-
-
-
 function changeColor() {
     confirm('Are you sure?')
     var favColor = prompt("what is your fav color(1.beige, 2.silver, or 3.green)?")
@@ -34,4 +24,11 @@ function changeColor() {
         document.getElementById('main').style.backgroundColor = 'silver'
     }
 }
+
+var name = prompt("Hello, What's Your name?")
+welcome(name);
+
+var num = prompt("how do you rate the site out of 5?")
+rate(num);
+
 
