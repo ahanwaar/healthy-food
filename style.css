@@ -1,15 +1,14 @@
 /* Style the body */
 body {
   background-color: #f1f1f1;
-  font-family: Arial;
+  font-family: Arial, serif;
 }
 
 /* Header/Logo Title */
 .header {
   padding: 60px;
   text-align: center;
-  background: black;
-  background-image: url("https://image.freepik.com/free-photo/flat-lay-batch-cooking-composition_23-2148765597.jpg");
+  background: black url("https://image.freepik.com/free-photo/flat-lay-batch-cooking-composition_23-2148765597.jpg");
 
   color: white;
   font-size: 30px;
@@ -39,7 +38,7 @@ button:hover{
   color: black;
   padding: 50px;
   position: center;
-  font-family: Arial;
+  font-family: Arial, serif;
 }
 
 
@@ -105,4 +104,18 @@ main img{
   content: "";
   display: table;
   clear: both;
+}
+
+
+#rate-block{
+  display: inline-block;
+}
+
+#rate {
+  display: inline-block;
+}
+#rate img {
+  width: 30px;
+  height: 30px;
+  position: relative;
 }
