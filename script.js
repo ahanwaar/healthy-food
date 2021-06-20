@@ -1,6 +1,6 @@
-var num = prompt("how do you rate the site out of 5?")
-
-rate(num);
+var welcome = function (name){
+    return alert("hello," + name)
+}
 
 function rate(num){
     if(num <= 5) {
@@ -9,6 +9,15 @@ function rate(num){
         }
     }
 }
+
+
+var name = prompt("Hello, What's Your name?")
+welcome(name);
+
+var num = prompt("how do you rate the site out of 5?")
+rate(num);
+
+
 
 
 function changeColor() {
